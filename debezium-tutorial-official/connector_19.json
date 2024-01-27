@@ -1,0 +1,16 @@
+{
+  "name": "debezium-postgres",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+    "database.server.name": "LUAN",
+    "database.hostname": "postgres",
+    "database.port": "5432",
+    "database.user": "postgres",
+    "database.password": "postgres",
+    "database.dbname" : "postgres",
+    "topic.prefix": "cdc",
+    "table.include.list" : "inventory.customers",
+    "plugin.name": "pgoutput"
+  }
+}

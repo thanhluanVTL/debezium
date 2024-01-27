@@ -1,0 +1,1 @@
+curl -X GET http://localhost:8081/subjects/LUAN.inventory.customers-value/versions/1
